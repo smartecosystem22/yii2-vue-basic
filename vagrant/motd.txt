@@ -1,0 +1,5 @@
+Welcome to yii2-vue basic application!
+
+Hosts file config: 
+192.168.39.50 yii2-vue-basic.local
+

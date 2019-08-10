@@ -55,12 +55,14 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays homepage.
+     * Displays vue homepage.
      *
      * @return string
      */
     public function actionIndex()
     {
+        $this->layout = 'vue';
+
         return $this->render('index');
     }
 

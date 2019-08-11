@@ -19,6 +19,16 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt install -y nodejs
 
 sudo apt autoremove -y
+
 # Run Composer
 cd /var/www
 sudo -Hu vagrant composer install
+
+# Run Npm
+npm install
+
+# Install webpack and webpack-cli globally
+sudo npm i -g webpack webpack-cli
+
+# Run webpack command
+npm run dev

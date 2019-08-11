@@ -13,7 +13,7 @@
         name: "App",
         data: function () {
             return {
-                text: 'Yes it is!'
+                text: 'This part of application is rendered in Vue.'
             }
         },
         components: {

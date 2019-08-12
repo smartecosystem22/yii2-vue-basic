@@ -22,6 +22,19 @@ module.exports = (env, argv) => {
             path: PATHS.build,
             filename: config.production ? 'app.min.js' : 'app.js'
         },
+        devServer: {
+            stats: {
+                children: false,
+                maxModules: 0
+            },
+            disableHostCheck: true,
+            contentBase: false,
+            hot: true,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
+            }
+        },
         module: {
             rules: [
                 {

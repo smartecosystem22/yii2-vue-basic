@@ -23,7 +23,7 @@ class VueAppAsset extends AssetBundle
         'css/site.css',
     ];
     public $js = [
-        'app.js'
+        'http://localhost:8080/app.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',

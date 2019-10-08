@@ -22,7 +22,7 @@ NavBar::begin([
 echo Nav::widget([
     'options' => ['class' => 'navbar-nav navbar-right'],
     'items' => [
-        ['label' => 'Vue', 'url' => ['/site/index']],
+        ['label' => 'Vue', 'url' => ['/index/vue']],
         ['label' => 'About', 'url' => ['/site/about']],
         ['label' => 'Contact', 'url' => ['/site/contact']],
         Yii::$app->user->isGuest ? (

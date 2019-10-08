@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "dev": "webpack-dev-server --config webpack.config.js",
+    "dev": "webpack --config webpack.config.js",
     "prod": "webpack --config webpack.config.js --optimize-minimize --mode production"
   },
   "keywords": [
@@ -24,8 +24,7 @@
   },
   "homepage": "https://github.com/srdjan92/yii2-vue-basic#readme",
   "dependencies": {
-    "vue": "^2.6.10",
-    "vue-router": "^3.1.2"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "css-loader": "^3.2.0",
@@ -34,7 +33,6 @@
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-cli": "^3.3.6"
   }
 }

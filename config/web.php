@@ -6,6 +6,7 @@ $db = require __DIR__ . '/db.php';
 $config = [
     'id' => 'basic',
     'name' => 'Yii2 Vue Application',
+    'defaultRoute' => 'index/vue',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [

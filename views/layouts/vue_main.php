@@ -6,12 +6,12 @@
  */
 
 use yii\helpers\Html;
-use app\assets\VueAppAsset;
+use app\assets\VueAssets;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-VueAppAsset::register($this);
+VueAssets::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

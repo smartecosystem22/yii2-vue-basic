@@ -16,6 +16,6 @@
 <style scoped>
     h1 {
         margin: 40px 0 0;
-        color: red;
+        color: #41B883;
     }
 </style>

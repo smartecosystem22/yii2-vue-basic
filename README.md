@@ -37,5 +37,8 @@ Navigate to the root app directory and run:
 vagrant up
 ~~~
 
-Please notice provision.sh script inside vagrant folder. Everything that is needed for appropriate running simple Vue app inside existing Yii2 app is configured here. No additional steps needed.
+Please notice provision.sh script inside vagrant folder. Everything that is needed for appropriate running simple Vue app inside existing Yii2 app is configured here. No additional steps needed, just visit url above.
 
+~~~
+http://yii2-vue-basic.local/
+~~~

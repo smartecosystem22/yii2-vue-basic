@@ -30,6 +30,7 @@ class Alert extends \yii\bootstrap\Widget
      * - key: the name of the session flash variable
      * - value: the bootstrap alert type (i.e. danger, success, info, warning)
      */
+    
     public $alertTypes = [
         'error'   => 'alert-danger',
         'danger'  => 'alert-danger',
